@@ -1,0 +1,11 @@
+export const LIGHT_SPEED_KM_S=299792.458;
+export const KM_PER_UNIT=5000;
+export const EARTH_RADIUS=6371/KM_PER_UNIT;
+export const MOON_RADIUS=1737/KM_PER_UNIT;
+export const EARTH_MOON_DISTANCE=384400/KM_PER_UNIT;
+export const EARTH_MOON_LIGHT_SECONDS=384400/LIGHT_SPEED_KM_S;
+export const SCALE_PULSE_START=83.65;
+export const EARTH_X=60;
+export const MOON_X=EARTH_X+EARTH_MOON_DISTANCE;
+export const PRISM_X=184;
+export function scalePulseX(time:number){return EARTH_X+Math.max(0,Math.min(EARTH_MOON_LIGHT_SECONDS,time-SCALE_PULSE_START))*LIGHT_SPEED_KM_S/KM_PER_UNIT;}
