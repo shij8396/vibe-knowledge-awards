@@ -1,4 +1,4 @@
-# Vibe 知识大赏｜LUMEN《光的诞生》
+# Vibe知识大赏
 
 **Vibe Coding × Three.js × WebGL｜用代码制作沉浸式科学可视化短片。**
 
