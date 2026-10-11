@@ -1,4 +1,12 @@
-# vibe知识大赏 · LUMEN《光的诞生》
+# Vibe 知识大赏｜LUMEN《光的诞生》
+
+**Vibe Coding × Three.js × WebGL｜用代码制作沉浸式科学可视化短片。**
+
+> 光从哪里来？从原子跃迁到恒星辐射，用 10 个连续镜头讲述光的物理世界。
+
+这是一个开源的 **Vibe 知识大赏 / AI 辅助创意编程 / WebGL 科普动画** 实践作品。通过 Three.js、GLSL 着色器与统一时间轴，直接在浏览器中实时渲染三维镜头，而非拼接图片或预录视频。适合想学习 **Three.js 动画、程序化视觉、科普短片制作及 Vibe Coding 工作流** 的开发者参考。
+
+**关键词**：Vibe知识大赏、光的诞生、Vibe Coding、Three.js、WebGL2、GLSL、GSAP、Creative Coding、Science Visualization、AI-assisted Coding。
 
 一部由浏览器实时渲染的三维科学短片：170 秒，10 个连续镜头，从光核与原子跃迁，到电磁场、色散、恒星和地球。
 
